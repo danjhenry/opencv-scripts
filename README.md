@@ -1,2 +1,2 @@
 # opencv-scripts
-scripts for reprocessing images and more.
+scripts for preprocessing images and more.
