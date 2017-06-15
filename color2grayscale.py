@@ -1,6 +1,5 @@
 import cv2
-import os, sys
-import numpy as np
+import os
 
 def main():
     images = os.listdir('dir name')
