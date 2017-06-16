@@ -2,9 +2,9 @@ import cv2
 import os
 
 def main():
-    images = os.listdir('dir name')
+    images = os.listdir('dirName')
     for image in images:
-        path = 'images/' + image
+        path = 'dirName/' + image
         img = cv2.imread(path, 0)
         newPath = 'gray/' + image
         cv2.imwrite(newPath, img)
