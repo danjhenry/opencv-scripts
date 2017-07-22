@@ -10,6 +10,5 @@ def main():
         image = image[:-3]
         newPath = 'png/' + image + 'png'
         cv2.imwrite(newPath, img)
-    print('done')
-        
+    print('done') 
 main()
